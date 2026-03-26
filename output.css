@@ -248,6 +248,12 @@
   .h-500 {
     height: calc(var(--spacing) * 500);
   }
+  .h-full {
+    height: 100%;
+  }
+  .h-screen {
+    height: 100vh;
+  }
   .w-25 {
     width: calc(var(--spacing) * 25);
   }
