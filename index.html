@@ -5,8 +5,8 @@
   <link rel="stylesheet" href="output.css">
   <script type="text/Javascript" src="main.js"></script>
 </head>
-<body class="overflow-x-hidden w-full">
-  <div class=" bg-cover font-sans w-screen h-500 animated-background bg-gradient-to-r from-pink-500 via-white-500 to-indigo-500">
+<body class="overflow-x-hidden w-full h-full flex">
+  <div class=" bg-cover font-sans w-full h-full animated-background bg-gradient-to-r from-pink-500 via-white-500 to-indigo-500">
     <div class="bg-white shadow fixed top-0 w-full z-10">
       <div class="container mx-auto ">
         <div class="flex items-center justify-between py-4">
@@ -60,53 +60,49 @@
     <div class="bg-white/30 h-1 w-full my-20"></div>
     <p class="font-sans font-bold text-white text-xl text-center my-12">Projects</p>
     
-    <div class="grid h-70 grid-cols-4 content-center mx-auto container text-white text-center my-20 font-sans text-xl gap-5">
-      <div class="duration-300 hover:scale-110">
-        <div class="h-1 w-full bg-white/30 container backdrop-blur-sm shadow rounded-lg duration-300 hover:scale-110"></div>
+    <div class="grid h-70 grid-cols-4 container content-center mx-auto text-white text-center my-20 font-sans text-xl gap-5 w-full">
+      <div class="group duration-300 hover:scale-110">
+        <div class="h-1 bg-white/30 backdrop-blur-sm shadow rounded-lg duration-300 hover:scale-110"></div>
           <img src="mywebsite.PNG">         
           <p> Sleek and Modern Portfolio Website.</p>
           <p> Hosted using GitPages.</p>
         <div class="bg-white/30 h-1 w-full"></div>
-        <div class="grid h-7 grid-cols-4 gap-30 mx-4 my-2 ">
-          <div class="bg-white/30 backdrop-blur-sm w-25 shadow rounded-lg duration-300 hover:scale-110"><p>HTML</p></div>
-          <div class="bg-white/30 backdrop-blur-sm w-25 shadow rounded-lg duration-300 hover:scale-110"><p>CSS</p></div>
-          <div class="bg-white/30 backdrop-blur-sm w-25 shadow rounded-lg duration-300 hover:scale-110"><p>Tailwind</p></div>
+        <div class=" h-20 w-full invisible group-hover:visible my-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto" viewBox="0 0 24 24" width="48" height="48">
+          <path d="M10.226 17.284c-2.965-.36-5.054-2.493-5.054-5.256 0-1.123.404-2.336 1.078-3.144-.292-.741-.247-2.314.09-2.965.898-.112 2.111.36 2.83 1.01.853-.269 1.752-.404 2.853-.404 1.1 0 1.999.135 2.807.382.696-.629 1.932-1.1 2.83-.988.315.606.36 2.179.067 2.942.72.854 1.101 2 1.101 3.167 0 2.763-2.089 4.852-5.098 5.234.763.494 1.28 1.572 1.28 2.807v2.336c0 .674.561 1.056 1.235.786 4.066-1.55 7.255-5.615 7.255-10.646C23.5 6.188 18.334 1 11.978 1 5.62 1 .5 6.188.5 12.545c0 4.986 3.167 9.12 7.435 10.669.606.225 1.19-.18 1.19-.786V20.63a2.9 2.9 0 0 1-1.078.224c-1.483 0-2.359-.808-2.987-2.313-.247-.607-.517-.966-1.034-1.033-.27-.023-.359-.135-.359-.27 0-.27.45-.471.898-.471.652 0 1.213.404 1.797 1.235.45.651.921.943 1.483.943.561 0 .92-.202 1.437-.719.382-.381.674-.718.944-.943"></path></svg>
         </div>
       </div>
 
-      <div class="duration-300 hover:scale-110">
-        <div class="h-1 w-full bg-white/30 container backdrop-blur-sm shadow rounded-lg duration-300 hover:scale-110"></div>
+      <div class="group duration-300 hover:scale-110">
+        <div class=" h-1 w-full bg-white/30 container backdrop-blur-sm shadow rounded-lg duration-300 hover:scale-110"></div>
           <img src="Unit-Testing.PNG">         
           <p>A C# application imeplementing interfaces and using unit testing. </p>
         <div class="bg-white/30 h-1 w-full"></div>
-        <div class="grid h-7 grid-cols-4 gap-30 mx-4  my-2">
-          <div class="bg-white/30 backdrop-blur-sm w-25 shadow rounded-lg duration-300 hover:scale-110"><p>C#</p></div>
-          <div class="bg-white/30 backdrop-blur-sm w-25 shadow rounded-lg duration-300 hover:scale-110"><p>CSS</p></div>
-          <div class="bg-white/30 backdrop-blur-sm w-25 shadow rounded-lg duration-300 hover:scale-110"><p>Tailwind</p></div>
+                <div class=" h-20 w-full invisible group-hover:visible my-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto" viewBox="0 0 24 24" width="48" height="48">
+          <path d="M10.226 17.284c-2.965-.36-5.054-2.493-5.054-5.256 0-1.123.404-2.336 1.078-3.144-.292-.741-.247-2.314.09-2.965.898-.112 2.111.36 2.83 1.01.853-.269 1.752-.404 2.853-.404 1.1 0 1.999.135 2.807.382.696-.629 1.932-1.1 2.83-.988.315.606.36 2.179.067 2.942.72.854 1.101 2 1.101 3.167 0 2.763-2.089 4.852-5.098 5.234.763.494 1.28 1.572 1.28 2.807v2.336c0 .674.561 1.056 1.235.786 4.066-1.55 7.255-5.615 7.255-10.646C23.5 6.188 18.334 1 11.978 1 5.62 1 .5 6.188.5 12.545c0 4.986 3.167 9.12 7.435 10.669.606.225 1.19-.18 1.19-.786V20.63a2.9 2.9 0 0 1-1.078.224c-1.483 0-2.359-.808-2.987-2.313-.247-.607-.517-.966-1.034-1.033-.27-.023-.359-.135-.359-.27 0-.27.45-.471.898-.471.652 0 1.213.404 1.797 1.235.45.651.921.943 1.483.943.561 0 .92-.202 1.437-.719.382-.381.674-.718.944-.943"></path></svg>
         </div>
       </div>
 
-      <div class="duration-300 hover:scale-110">
-        <div class="h-1 w-full bg-white/30 container backdrop-blur-sm shadow rounded-lg duration-300 hover:scale-110"></div>
+      <div class="group duration-300 hover:scale-110">
+        <div class=" h-1 w-full bg-white/30 container backdrop-blur-sm shadow rounded-lg duration-300 hover:scale-110"></div>
           <img src="AdminPortal1.PNG">         
           <p> Simple Backend focused website focused on database creation and modification. </p>
         <div class="bg-white/30 h-1 w-full"></div>
-        <div class="grid h-7 grid-cols-4 gap-30 mx-4 my-2">
-          <div class="bg-white/30 backdrop-blur-sm w-25 shadow rounded-lg duration-300 hover:scale-110"><p>C#</p></div>
-          <div class="bg-white/30 backdrop-blur-sm w-25 shadow rounded-lg duration-300 hover:scale-110"><p>CSS</p></div>
-          <div class="bg-white/30 backdrop-blur-sm w-25 shadow rounded-lg duration-300 hover:scale-110"><p>Tailwind</p></div>
+                <div class=" h-20 w-full invisible group-hover:visible my-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto" viewBox="0 0 24 24" width="48" height="48">
+          <path d="M10.226 17.284c-2.965-.36-5.054-2.493-5.054-5.256 0-1.123.404-2.336 1.078-3.144-.292-.741-.247-2.314.09-2.965.898-.112 2.111.36 2.83 1.01.853-.269 1.752-.404 2.853-.404 1.1 0 1.999.135 2.807.382.696-.629 1.932-1.1 2.83-.988.315.606.36 2.179.067 2.942.72.854 1.101 2 1.101 3.167 0 2.763-2.089 4.852-5.098 5.234.763.494 1.28 1.572 1.28 2.807v2.336c0 .674.561 1.056 1.235.786 4.066-1.55 7.255-5.615 7.255-10.646C23.5 6.188 18.334 1 11.978 1 5.62 1 .5 6.188.5 12.545c0 4.986 3.167 9.12 7.435 10.669.606.225 1.19-.18 1.19-.786V20.63a2.9 2.9 0 0 1-1.078.224c-1.483 0-2.359-.808-2.987-2.313-.247-.607-.517-.966-1.034-1.033-.27-.023-.359-.135-.359-.27 0-.27.45-.471.898-.471.652 0 1.213.404 1.797 1.235.45.651.921.943 1.483.943.561 0 .92-.202 1.437-.719.382-.381.674-.718.944-.943"></path></svg>
         </div>
       </div>
 
-      <div class="duration-300 hover:scale-110">
-        <div class="h-1 w-full bg-white/30 container backdrop-blur-sm shadow rounded-lg duration-300 hover:scale-110"></div>
+      <div class="group duration-300 hover:scale-110">
+        <div class=" h-1 w-full bg-white/30 container backdrop-blur-sm shadow rounded-lg duration-300 hover:scale-110"></div>
           <img src="Concurrency.PNG">         
           <p>  A simulation built with Java, making use of multithreading to achieve concurrency</p>
         <div class="bg-white/30 h-1 w-full"></div>
-        <div class="grid h-7 grid-cols-4 gap-30 mx-4  my-2">
-          <div class="bg-white/30 backdrop-blur-sm w-25 shadow rounded-lg duration-300 hover:scale-110"><p>C#</p></div>
-          <div class="bg-white/30 backdrop-blur-sm w-25 shadow rounded-lg duration-300 hover:scale-110"><p>CSS</p></div>
-          <div class="bg-white/30 backdrop-blur-sm w-25 shadow rounded-lg duration-300 hover:scale-110"><p>Tailwind</p></div>
+        <div class=" h-20 w-full invisible group-hover:visible my-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto" viewBox="0 0 24 24" width="48" height="48">
+          <path d="M10.226 17.284c-2.965-.36-5.054-2.493-5.054-5.256 0-1.123.404-2.336 1.078-3.144-.292-.741-.247-2.314.09-2.965.898-.112 2.111.36 2.83 1.01.853-.269 1.752-.404 2.853-.404 1.1 0 1.999.135 2.807.382.696-.629 1.932-1.1 2.83-.988.315.606.36 2.179.067 2.942.72.854 1.101 2 1.101 3.167 0 2.763-2.089 4.852-5.098 5.234.763.494 1.28 1.572 1.28 2.807v2.336c0 .674.561 1.056 1.235.786 4.066-1.55 7.255-5.615 7.255-10.646C23.5 6.188 18.334 1 11.978 1 5.62 1 .5 6.188.5 12.545c0 4.986 3.167 9.12 7.435 10.669.606.225 1.19-.18 1.19-.786V20.63a2.9 2.9 0 0 1-1.078.224c-1.483 0-2.359-.808-2.987-2.313-.247-.607-.517-.966-1.034-1.033-.27-.023-.359-.135-.359-.27 0-.27.45-.471.898-.471.652 0 1.213.404 1.797 1.235.45.651.921.943 1.483.943.561 0 .92-.202 1.437-.719.382-.381.674-.718.944-.943"></path></svg>
         </div>
       </div>
     </div>
